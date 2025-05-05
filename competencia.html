@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Competitions</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="page">
+  <section class="header">
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="niveles.html">Levels & Workouts</a></li>
+                <li><a href="dieta.html">Diet & Nutrition</a></li>
+                <li><a href="pro.html">Professional</a></li>
+                <li><a href="competencia.html">Competencies</a></li> 
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+  <div class="container-btn">
+    <h1>Competitions</h1>
+
+
+      <h2>Amateur Competitions</h2>
+      <p>To start competing in bodybuilding, you need to enter amateur contests. These are usually regional or national level shows. Popular organizations include NPC (National Physique Committee), IFBB Amateur, and INBA.</p>
+      <ul>
+        <li>NPC Nationals</li>
+        <li>Arnold Amateur</li>
+        <li>Musclecontest Events</li>
+      </ul>
+
+
+
+      <h2>Requirements to Compete</h2>
+      <p>To enter a competition, you must:</p>
+      <ul>
+        <li>Register with the federation (e.g., NPC, IFBB Amateur)</li>
+        <li>Choose a division (Men's Physique, Classic, Bodybuilding, Wellness, etc.)</li>
+        <li>Follow the competition guidelines: posing, weight limits, attire</li>
+      </ul>
+
+
+
+      <h2>How to Earn the IFBB Pro Card</h2>
+      <p>The IFBB Pro Card is the passport to professional bodybuilding. To earn it:</p>
+      <ol>
+        <li>Compete and win at a national-level amateur event (e.g., NPC Nationals)</li>
+        <li>Place top in your division and class</li>
+        <li>If selected, you will be awarded the IFBB Pro Card by the judges</li>
+      </ol>
+      <p>Once you go pro, you can compete in pro shows like the Arnold Classic or Olympia qualifiers.</p>
+
+  </div>
+
+  <script>
+
+
+    var navLinks = document.getElementById("navLinks");
+
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

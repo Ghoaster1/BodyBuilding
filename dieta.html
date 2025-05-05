@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet & Nutrition</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="niveles.html">Levels & Workouts</a></li>
+              <li><a href="dieta.html">Diet & Nutrition</a></li>
+              <li><a href="pro.html">Professional</a></li>
+              <li><a href="competencia.html">Competencies</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+      </section>
+
+    <div class="content-diet">
+        <h1 class="h1-diet">Diet & Nutrition</h1>
+
+        <div class="diet-columns">
+            <div class="left-column">
+                <div class="general-introduction">
+                    <h2 class="h2-general">General Introduction</h2>
+                    <p class="p-general">
+                        A proper diet is just as important as your training when it<br>
+                        comes to reaching your fitness goals. Whether your objective<br>
+                        is to gain muscle, lose fat, or maintain your current shape,<br>
+                        nutrition plays a key role. This section will help you understand<br>
+                        how to fuel your body for optimal performance and recovery.
+                    </p>
+                </div>
+
+                <div class="macronutrients-explained">
+                    <h2 class="h2-general">Macronutrients Explained</h2>
+                    
+                    <h3 class="protein">Protein</h3>
+                    <ul>
+                        <li>Builds and repairs muscle tissue</li>
+                        <li>Found in meat, eggs, dairy, tofu, and legumes</li>
+                    </ul>
+
+                    <h3 class="protein">Carbohydrates</h3>
+                    <ul>
+                        <li>Provide energy for workouts and brain function</li>
+                        <li>Choose complex carbs like oats, brown rice, fruits, and veggies</li>
+                    </ul>
+
+                    <h3 class="protein">Fats</h3>
+                    <ul>
+                        <li>Support hormone production and joint health</li>
+                        <li>Sources include avocados, nuts, seeds, and olive oil</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="types">
+                    <h2 class="h2-general">Goals & Diet Types</h2>
+
+                    <h3 class="diet-type">Bulking</h3>
+                    <ul>
+                        <li>Focuses on a caloric surplus to promote muscle growth.</li>
+                        <li>Ideal for gaining size and strength when paired with intense training.</li>
+                        <li>Prioritize high-protein meals with complex carbs and healthy fats.</li>
+                        <li>Be mindful of not gaining excess fat — clean bulking is key.</li>
+                    </ul>
+
+                    <h3 class="diet-type">Cutting</h3>
+                    <ul>
+                        <li>Based on a caloric deficit to reduce body fat while maintaining muscle.</li>
+                        <li>Macros are carefully adjusted to prevent strength loss.</li>
+                        <li>Focus on lean proteins, fiber-rich vegetables, and low-sugar foods.</li>
+                        <li>Cardio and resistance training are both important here.</li>
+                    </ul>
+
+                    <h3 class="diet-type">Maintenance</h3>
+                    <ul>
+                        <li>Aims to sustain your current weight and muscle mass.</li>
+                        <li>Useful during rest periods or after a bulk/cut phase.</li>
+                        <li>Encourages a flexible but balanced approach to eating.</li>
+                        <li>Helps stabilize hormones and recover mentally and physically.</li>
+                    </ul>
+                </div>
+
+                <div class="tips">
+                    <h2 class="h2-general">Tips & Advice</h2>
+                    <ul class="tips-list">
+                        <li>Stay hydrated with 2-3 liters of water daily.</li>
+                        <li>Avoid processed sugars and excess sodium.</li>
+                        <li>Prep meals ahead to stay consistent.</li>
+                        <li>Track calories and macros using an app.</li>
+                        <li>Eat whole foods whenever possible.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

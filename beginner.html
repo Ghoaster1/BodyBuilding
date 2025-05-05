@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="niveles.html">Levels & Workouts</a></li>
+                    <li><a href="dieta.html">Diet & Nutrition</a></li>
+                    <li><a href="pro.html">Professional</a></li>
+                    <li><a href="competencia.html">Competencies</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+
+    <div class="routine-grid">
+        <h1 class="h1-beginner">Beginner Level</h1> 
+        <p class="p-beginner">This section is designed for those who are new to training or just getting back into fitness. <br>
+            The routines here focus on building a strong foundation, improving form, and developing consistent habits.<br>
+            Exercises are simple, effective, and safe — perfect for learning movement patterns and starting your journey with confidence.
+        </p>
+        <div class="push-pull-legs">
+            <h3 class="h3-begin">PUSH/PULL/LEGS</h3>
+            <p class="push">
+                <b>Push Day (Chest, Shoulders, Triceps)</b> <br><br>
+                Bench Press: 3 sets x 10 reps<br><br>
+                Dumbbell Shoulder Press: 3 x 12<br><br>
+                Triceps Pushdown: 3 x 15<br><br>
+                Lateral Raises: 3 x 15<br><br>
+                Incline Dumbbell Press: 3 x 10<br><br>
+                <b>Pull Day (Back, Biceps)</b><br><br>
+                Lat Pulldown: 3 x 12<br><br>
+                Seated Row: 3 x 10<br><br>
+                Dumbbell Bicep Curl: 3 x 12<br><br>
+                Face Pull: 3 x 15<br><br>
+                Hammer Curl: 3 x 12<br><br>
+                <b>Leg Day (Quads, Hamstrings, Glutes, Calves)</b><br><br>
+                Bodyweight Squats or Leg Press: 3 x 1<br><br>
+                Romanian Deadlift: 3 x 10<br><br>
+                Leg Curl Machine: 3 x 15<br><br>
+                Standing Calf Raise: 4 x 15<br><br>
+            </p>
+        </div>
+
+        <div class="arnold-split">
+            <h3 class="h3-beginner-2">Arnold Split</h3>
+            <p class="arnold">
+                <b>Day 1: Chest and Back</b><br><br>
+                Bench Press: 3 x 10<br><br>
+                Bent Over Row: 3 x 10<br><br>
+                Incline Dumbbell Flyes: 3 x 12<br><br>
+                Pull-Ups or Lat Pulldown: 3 x 10<br><br>
+                Push-Ups: 3 x 15<br><br>
+                <b>Day 2: Legs</b><br><br>
+                Squats: 3 x 10<br><br>
+                Lunges: 3 x 12 (each leg)<br><br>
+                Leg Press: 3 x 10<br><br>
+                Calf Raises: 4 x 15<br><br>
+                Deadlifts: 3 x 10<br><br>
+                <b>Day 3: Shoulders and Arms</b><br><br>
+                Shoulder Press: 3 x 10<br><br>
+                Lateral Raises: 3 x 12<br><br>
+                Bicep Curls: 3 x 12<br><br>
+                Tricep Dips or Skull Crushers: 3 x 10<br><br>
+            </p>
+        </div>
+
+        <div class="heavy-duty">
+            <h3 class="h3-beginner">Upper & Lower Body</h3>
+            <p class="heavy">
+                <b>Day 1: Upper Body</b><br><br>
+                Bench Press: 3 x 6-8<br><br>
+                Bent Over Row: 3 x 6-8<br><br>
+                Shoulder Press: 3 x 6-8<br><br>
+                Pull-Ups or Lat Pulldown: 3 x 6-8<br><br>
+                <b>Day 2: Lower Body</b><br><br>
+                Squats: 3 x 6-8<br><br>
+                Deadlifts: 3 x 6-8<br><br>
+                Leg Press: 3 x 6-8<br><br>
+                Calf Raises: 4 x 10-12<br><br>
+            </p>
+        </div>
+
+        <div class="full-body">
+            <h3 class="h3-beginner-2">Full Body</h3>
+            <p class="full">
+                <b>Day 1: Full Body</b><br><br>
+                Squats: 3 x 10<br><br>
+                Bench Press: 3 x 10<br><br>
+                Bent Over Row: 3 x 10<br><br>
+                Shoulder Press: 3 x 10<br><br>
+                Deadlifts: 3 x 10<br><br>
+                <b>Day 2: Full Body</b><br><br>
+                Lunges: 3 x 12 (each leg)<br><br>
+                Push-Ups: 3 x 15<br><br>
+                Pull-Ups or Lat Pulldown: 3 x 10<br><br>
+                Plank: 3 sets of 30-60 seconds<br><br>
+            </p>
+        </div>
+    </div>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

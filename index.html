@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyBuilding</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="niveles.html">Levels & Workouts</a></li>
+                    <li><a href="dieta.html">Diet & Nutrition</a></li>
+                    <li><a href="pro.html">Professional</a></li>
+                    <li><a href="competencia.html">Competencies</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="text-box">
+        <h1>BODYBUILDING</h1>
+        <h2>BUILD YOUR BODY</h2>
+        <p>Tips, workouts and more to help you in your path <br>towards BodyBuilding</p>
+    </div>
+
+
+    <div class="hero">
+        <ul>
+            <li><a href="niveles.html" class="hero-btn">WORKOUTS</a></li>
+            <li><a href="dieta.html" class="hero-btn">DIETS</a></li>
+            <li><a href="competencia.html" class="hero-btn">COMPETENCIES</a></li>
+            <li><a href="pro.html" class="hero-btn">HOW TO BECOME PRO</a></li>
+        </ul>
+    </div>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+
